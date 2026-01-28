@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.cta-button {
+  padding: 24px 28px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.cta-button {
+  background-color: #167927;
+  color: #ffffff;
+}
+.cta-button:hover {
+  opacity: 0.9;
+}
+
+.cta-button {
+  padding: 14px 28px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #167927;
+  color: #ffffff;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.cta-button:hover {
+  background-color: #167927;
+}
+
+.cta-button:active {
+  transform: scale(0.98);
+}
+
+.cta-button:disabled {
+  background-color: #999999;
+  cursor: not-allowed;
+}
